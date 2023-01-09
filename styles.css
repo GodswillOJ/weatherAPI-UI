@@ -46,24 +46,53 @@
   }
   .container > div {
     position: relative;
-    display: flex;
     justify-content: center;
     align-items: center;
     bottom: 4rem;
   }
+  .brand{
+    position: relative;
+    left: 1rem;
+    font-size: 70px;
+    font-weight: bold;
+    color: #1b96fa;
+  }
+  .name{
+    color: #fa6d1b;
+  }
   .city-time,
-  .temp,
+  .temp1,
   .weather {
     margin: 0 1em;
+  }
+  .city-time {
+    position: relative;
   }
   .city-time h1 {
     margin: 0;
     margin-bottom: 0.2em;
     font-size: 3em;
   }
-  .temp {
+  .temp1 {
+    position: relative;
     font-size: 7em;
     margin: 0;
+  }
+  .temp {
+    position: relative;
+    left: 20px;
+    font-size: 2.4em;
+
+  }
+  .degg {
+    position: relative;
+    left: 8.2rem;
+    bottom: 5.1rem;
+    font-size: 2rem;
+    
+  }
+  .degg, .temp{
+    color: aquamarine;
   }
   .weather img{
     display: block;
